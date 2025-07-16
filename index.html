@@ -1,143 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Kriyansh - Web Developer Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Jane Doe – Semantic HTML5 Demo</title>
 </head>
 <body>
 
-    <h1>Kriyansh - Full Stack Web Developer</h1>
-    <p><b>Email:</b> <a href="mailto:Kriyansh@example.com">Kriyansh@example.com</a></p>
-    <p><b>Phone:</b> +966 1234567</p>
-    <p><b>Location:</b> UAE</p>
+  <header>
+    <h1>Jane Doe – Web Developer & Content Creator</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <hr>
+  <main>
 
-    <h2>About Me</h2>
-    <p>Hello! I'm <b>Kriyansh</b>, a passionate and self-taught <i>Full Stack Web Developer</i> with over 3 years of experience in building dynamic and responsive websites and applications. I specialize in HTML, CSS, JavaScript, PHP, Laravel, and React.js.</p>
+    <section id="about">
+      <header>
+        <h2>About Me</h2>
+      </header>
+      <p>Hello! I'm Jane, a full‑stack developer focusing on modern web experiences.</p>
+      <p>I love making content accessible and SEO-friendly using <mark>semantic HTML</mark>.</p>
+      <time datetime="2025-07-16">July 16, 2025</time>
+    </section>
 
-    <p>I believe in writing clean, readable, and efficient code. My goal is always to build products that not only look great but also perform excellently.</p>
+    <section id="portfolio">
+      <header><h2>Portfolio Highlights</h2></header>
 
-    <hr>
+      <article>
+        <header>
+          <h3>Project: Photo Gallery</h3>
+          <time datetime="2024-05-12">May 12, 2024</time>
+        </header>
+        <figure>
+          <img src="https://picsum.photos/seed/portfolio1/600/300" alt="Sample gallery layout">
+          <figcaption>Screenshot of responsive photo gallery.</figcaption>
+        </figure>
+        <p>A clean, responsive gallery built with HTML & minimal CSS.</p>
+      </article>
 
-    <h2>Skills</h2>
-    <h3>Frontend Technologies</h3>
-    <ul>
-        <li>HTML5</li>
-        <li>JavaScript (ES6+)</li>
-        <li>React.js</li>
-        <li>Bootstrap</li>
-        <li>Tailwind CSS</li>
-    </ul>
+      <article>
+        <header>
+          <h3>Project: Weather App</h3>
+          <time datetime="2024-11-05">November 5, 2024</time>
+        </header>
+        <figure>
+          <img src="https://picsum.photos/seed/portfolio2/600/300" alt="Weather app UI">
+          <figcaption>Live weather dashboard with dynamic data.</figcaption>
+        </figure>
+        <p>Uses a public API to display forecasts and weather stats.</p>
+      </article>
 
-    <h3>Backend Technologies</h3>
-    <ul>
-        <li>PHP</li>
-        <li>Laravel</li>
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>MySQL</li>
-    </ul>
+      <aside>
+        <h4>Side Note</h4>
+        <p>These are independent project <mark>articles</mark>—each wrapped in its own <code>&lt;article&gt;</code> tag :contentReference[oaicite:8]{index=8}.</p>
+      </aside>
+    </section>
 
-    <h3>Tools & Platforms</h3>
-    <ul>
-        <li>Git & GitHub</li>
-        <li>Firebase</li>
-        <li>cPanel</li>
-        <li>Heroku</li>
-        <li>Visual Studio Code</li>
-    </ul>
+    <aside>
+      <section>
+        <h2>Quick Links</h2>
+        <nav aria-label="Quick links">
+          <ul>
+            <li><a href="#blog">Latest Blog</a></li>
+            <li><a href="#contact">Contact Form</a></li>
+          </ul>
+        </nav>
+      </section>
+    </aside>
 
-    <hr>
+    <section id="blog">
+      <header><h2>Blog Posts</h2></header>
 
-    <h2>Projects</h2>
+      <article>
+        <header>
+          <h3>Understanding HTML5 Semantics</h3>
+          <time datetime="2025-06-01">June 1, 2025</time>
+        </header>
+        <p>This deep dive covers tags like <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, and more :contentReference[oaicite:9]{index=9}.</p>
 
-    <h3>1. Portfolio Website</h3>
-    <p>A personal website showcasing my bio, skills, and projects.</p>
-    <p><b>Technologies Used:</b> HTML, CSS, JavaScript</p>
-    <p><a href="https://Kriyansh.dev" target="_blank">Visit Project</a></p>
+        <details>
+          <summary>Read abstract</summary>
+          <p>Semantic HTML improves accessibility, SEO, and maintainability by clearly defining content roles :contentReference[oaicite:10]{index=10}.</p>
+        </details>
+      </article>
 
-    <h3>2. TechServent Agency Website</h3>
-    <p>Designed and developed a multi-page responsive website for TechServent, a startup agency.</p>
-    <p><b>Technologies Used:</b> HTML, CSS, Bootstrap, PHP</p>
-    <p><a href="https://Kriyansh.github.io/techservent/" target="_blank">Visit Project</a></p>
+    </section>
 
-    <h3>3. Coffo - Coffee Shop Website</h3>
-    <p>Developed a landing page and order system for a fictional coffee shop.</p>
-    <p><b>Technologies Used:</b> HTML, JavaScript</p>
-    <p><a href="https://Kriyansh.github.io/coffo/" target="_blank">Visit Project</a></p>
+    <section id="media">
+      <header><h2>Embedding Media</h2></header>
 
-    <hr>
+      <figure>
+        <picture>
+          <source srcset="https://picsum.photos/seed/media1/800/400" type="image/jpeg">
+          <img src="https://picsum.photos/seed/media1/400/200" alt="Sample scenic image">
+        </picture>
+        <figcaption>Picture element serving responsive image.</figcaption>
+      </figure>
 
-    <h2>Education</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Degree</th>
-                <th>Institution</th>
-                <th>Year</th>
-                <th>CGPA / Grade</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>BS in Computer Science</td>
-                <td>Air University, Islamabad</td>
-                <td>2021 - 2025</td>
-                <td>3.8 / 4.0</td>
-            </tr>
-            <tr>
-                <td>Intermediate in Pre-Engineering</td>
-                <td>Punjab College</td>
-                <td>2019 - 2021</td>
-                <td>A+</td>
-            </tr>
-        </tbody>
-    </table>
+      <audio controls>
+        <source src="sample-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
 
-    <hr>
+      <video controls width="480">
+        <source src="sample-video.mp4" type="video/mp4">
+        <track kind="captions" src="sample-captions.vtt" srclang="en" label="English">
+        Your browser does not support video.
+      </video>
+    </section>
 
-    <h2>Certifications</h2>
-    <ol>
-        <li>Responsive Web Design - FreeCodeCamp</li>
-        <li>PHP & MySQL Certification - Coursera</li>
-        <li>JavaScript Essentials - SoloLearn</li>
-        <li>Full Stack Developer Bootcamp - Udemy</li>
-    </ol>
+    <section id="contact">
+      <header><h2>Contact Me</h2></header>
 
-    <hr>
+      <form action="mailto:jane@example.com" method="post" enctype="text/plain">
 
-    <h2>My Work Gallery</h2>
-    <p>Below are some screenshots of my work:</p>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
 
-    <img src="https://www.w3schools.com/html/img_girl.jpg" alt="Project Screenshot 1" width="300"><br><br>
-    <img src="https://www.w3schools.com/html/img_chania.jpg" alt="Project Screenshot 2" width="300"><br><br>
-    <img src="https://www.w3schools.com/html/img_lights.jpg" alt="Project Screenshot 3" width="300">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
 
-    <hr>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
 
-    <h2>Testimonials</h2>
-    <p><b>Client: John Doe</b></p>
-    <p>"Ali did an excellent job on our business website. Very professional and easy to work with."</p>
+        
+          Interested In:
+          <label><input type="checkbox" name="interest" value="web"> Web Dev</label>
+          <label><input type="checkbox" name="interest" value="design"> Design</label>
+          <label><input type="checkbox" name="interest" value="seo"> SEO</label>
+        <br>
 
-    <p><b>Client: Maria Khan</b></p>
-    <p>"Amazing developer! Delivered our eCommerce platform before the deadline with perfect functionality."</p>
+        <label for="budget">Budget Range:</label><br>
+        <select id="budget" name="budget">
+          <option value="0-1000">$0–1k</option>
+          <option value="1000-5000">$1k–5k</option>
+          <option value="5000+">$5k+</option>
+        </select><br><br>
 
-    <hr>
+        <button type="submit">Send</button>
+      </form>
+    </section>
 
-    <h2>Contact Me</h2>
-    <p>If you'd like to work with me or have any questions, feel free to reach out:</p>
+  </main>
 
-    <ul>
-        <li><b>Email:</b> <a href="mailto:Kriyansh@example.com">Kriyansh@example.com</a></li>
-        <li><b>LinkedIn:</b> <a href="https://linkedin.com/in/Kriyansh" target="_blank">linkedin.com/in/Kriyansh</a></li>
-        <li><b>GitHub:</b> <a href="https://github.com/Kriyansh-dev" target="_blank">github.com/Kriyansh-dev</a></li>
-    </ul>
-
-    <hr>
-
-    <p><b>Thank you for visiting my portfolio!</b></p>
-    <p><a href="#top">Back to Top</a></p>
+  <footer>
+    <nav aria-label="Footer navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2025 Jane Doe</p>
+  </footer>
 
 </body>
 </html>
